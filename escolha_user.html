@@ -1,71 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bem vindo - UNIFLIX</title>
-        <style>
-            h1{ /* Centralizar a tag <h1> */
-                text-align: center;
-            }
-            div{ /* Ajuste das dimenssões <div> */
-                position:absolute;
-                width: 210px;
-                height: 210px;
-            }
 
-            #div1{ /* Usuário 1 */
-                border-style: solid;
-                border-color: rgb(240, 54, 162);
-                top:220px;
-                left:380px;
-            }
+<head>
+    <title>Bem vindo - UNIFLIX</title>
 
-            #div2{ /* Usuário 2 */
-                border-style: solid;
-                border-color: rgb(195, 228, 52);
-                top:220px;
-                left:670px;
-            }
 
-            #div3{ /* Usuário 3 */
-                border-style: solid;
-                border-color: rgb(54, 241, 179);
-                top: 220px;
-                left:950px;
-            }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/escolhaUser.css">
+</head>
 
-        </style>
-    </head>
+<!--Inicio do corpo com a cor preta-->
 
-    <!--Inicio do corpo com a cor preta-->
-    <body bgcolor="black">
+<body ">
 
-        <!--Logo-->
-        <img  width="200px" height="100px" src="logo_UNIFLIX.png"><BR>
+    <!--Logo-->
+    <div class="d-flex justify-content-center ">
+        <img src="img/logo_UNIFLIX.png " class="logo " alt="Responsive image ">
+    </div>
 
-        <h1><font color="white" size="10" style="font-family:Arial, Helvetica, sans-serif">Quem está assistindo?</font></h1>
-        
-        <!--Usuário 1-->
-        <div id="div1"> <a href="welcome.html">
-            <h1><img src="usuario1.png"
-            width="120px" height="120px"></h1>
-            <h1><font color="#808080" size="5">Usuário 1</font></h1> 
-            </a>
-        </div> 
 
-        <!--Usuário 2-->
-        <div id="div2"> <a href="welcome.html">
-           <h1><img src="usuario2.png"
-            width="120px" height="120px"></h1>
-            <h1><font color="#808080" size="5">Usuário 2</font></h1>
-            </a>
-        </div>
+    <BR>
 
-        <!--Usuário 3-->
-        <div id="div3"> <a href="welcome.html">
-            <h1><img src="usuario3.png"
-            width="120px" height="120px"></h1>
-            <h1><font color="#808080" size="5">Usuário 3</font></h1> 
-            </a>
-        </div>
-    </body>
+    <h1>
+        <font class="titulo ">Quem está assistindo?</font>
+    </h1>
+
+
+
+    <div class="card-deck ">
+        <a href="live.html ">
+            <div class="card ">
+                <img src="./img/user1.PNG " class="card-img-top ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Usuário 1</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="live.html ">
+            <div class="card ">
+                <img src="./img/user2.jpg " class="card-img-top ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Usuário 1</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="live.html ">
+            <div class="card ">
+                <img src="./img/user3.jpg " class="card-img-top ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Usuário 1</h5>
+                </div>
+            </div>
+        </a>
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+</body>
+
 </html>
